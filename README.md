@@ -19,6 +19,7 @@ Extracts:
 - Corresponding engine sounds from video audio
 - Output: Paired car images and audio clips
 
+You can find the dataset [here](https://drive.google.com/drive/folders/1B6m2mo-CyEaEXO0TD1EcsxyxKIK_REmo?usp=drive_link)
 ### 2. `CLIP_Evaluate.ipynb`
 Uses CLIP to:
 - Predict the car model for each image
@@ -28,7 +29,8 @@ Uses CLIP to:
 Integrates:
 - our dataset with an VMMRdb car dataset
 - Unifies file structure and model labels
-Trains an image classification model (EfficientNet-B0) to:
+
+- Trains an image classification model (EfficientNet-B0) to:
 - Predict car model from images
 - Output: Trained car recognition model
 
