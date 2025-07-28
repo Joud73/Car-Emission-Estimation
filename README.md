@@ -34,7 +34,7 @@ Integrates:
 - Predict car model from images
 - Output: Trained car recognition model
 
-# TO DO:
+## TO DO:
 ### 4. `AudioToEmission.ipynb`
 Links:
 - Car sounds to their predicted model
