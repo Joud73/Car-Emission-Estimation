@@ -34,6 +34,8 @@ Integrates:
 - Output: Trained car recognition model
 
 You can find the dataset [here](https://drive.google.com/drive/folders/1B6m2mo-CyEaEXO0TD1EcsxyxKIK_REmo?usp=drive_link)
+
+The dataset conatins 15000 images, with 323 classes
 ## TO DO:
 ### 4. `AudioToEmission.ipynb`
 Links:
