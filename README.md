@@ -19,28 +19,25 @@ Extracts:
 - Corresponding engine sounds from video audio
 - Output: Paired car images and audio clips
 
-### 2. `car_model_detection_clip.ipynb`
+### 2. `CLIP_Evaluate.ipynb`
 Uses CLIP to:
 - Predict the car model for each image
 - Output: `{image → predicted_model}`
 
-### 3. `dataset_integration.ipynb`
+### 3. `TrainCarClassifier.ipynb`
 Integrates:
-- Your detected images with an external car dataset
+- our dataset with an VMMRdb car dataset
 - Unifies file structure and model labels
-
-### 4. `train_car_classifier.ipynb`
-Trains an image classification model (e.g., EfficientNet or ViT) to:
+Trains an image classification model (EfficientNet-B0) to:
 - Predict car model from images
 - Output: Trained car recognition model
 
-### 5. `link_audio_to_emissions.ipynb`
+# TO DO:
+### 4. `AudioToEmission.ipynb`
 Links:
 - Car sounds to their predicted model
 - Models to their CO₂ emissions data
 - Output: `{audio → car_model → CO₂}` dataset
-
-### 6. `train_audio_co2_model.ipynb`
 Trains a regression model to:
 - Predict CO₂ emissions from engine sound features
 - Output: Sound-to-emission estimation model
