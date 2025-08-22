@@ -19,7 +19,7 @@ This repository contains two main components for estimating car gas emissions us
    - Produces model weights used in the pipeline.  
 
 ## Dataset  
-The model was trained on a **combined dataset** consisting of the [VMMRdb dataset](https://vmmrdb.cecsresearch.org/) (Vehicle Make and Model Recognition Database) together with a **custom scraped dataset** of car images collected for additional coverage.
+The model was trained on a **combined dataset** consisting of the [VMMRdb dataset](https://github.com/faezetta/VMMRdb) (Vehicle Make and Model Recognition Database) together with a **custom scraped dataset** of car images collected for additional coverage.
 
 ## Requirements  
 - Python 3.9+  
